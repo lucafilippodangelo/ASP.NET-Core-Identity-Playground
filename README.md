@@ -4,7 +4,7 @@ This project to test to improve my knowledge on Identity and user management
 
 ## Project description and main subjects
 
-# Connection to a database in VS2017 and .NET CORE, CRUD op.
+### Connection to a database in VS2017 and .NET CORE, CRUD op.
 
 INSTALL: Microsoft.AspnetCore.Identity.EntityFramework
 
@@ -39,7 +39,7 @@ INSTALL: Microsoft.AspnetCore.Identity.EntityFramework
 if I have a property called "Id", entity framework will assume that is the "Primary Key".
 
 
-# Implement Identity - preparation
+### Implement Identity - preparation
 
 //LD STEP1
   - add the "ApplicationUser" class
@@ -88,7 +88,7 @@ In this case the AddEditUser policy checks for the presence of an “Add User”
    Update-Database -Context ImplementIdentityDbContext
    ```
 
-# Implement Identity - CRUD
+### Implement Identity - CRUD
 
 This section demonstrates that how to create, edit and delete the identity users and how to assign the claims to a user. There is UserManager, which exposes the user related APIs. This creates the user in the Application and is stored in the database.
 
@@ -124,7 +124,7 @@ This section demonstrates that how to create, edit and delete the identity users
 //LD STEP9
   - now I add the Views
 
-# Implement Identity - Authentication and Authorisation
+### Implement Identity - Authentication and Authorisation
 
 //LD STEP10
   - add the "AccountController.cs"
