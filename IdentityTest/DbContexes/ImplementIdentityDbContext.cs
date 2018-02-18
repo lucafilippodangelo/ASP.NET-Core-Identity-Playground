@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 
 /// <summary>
 /// This class needs to know that which type Application user and role are dealing with the Application. 
-/// We passed ApplicationUser and IdentityRole as a parameter, while creating the object of ApplicationDbContext class. 
+/// We passed ApplicationUser and IdentityRole as a parameter, while creating the object of ApplicationDbContext 
+/// class. 
 /// Here, the third parameter represents the primary key data type for both IdentityUser and IdentityRole.
 /// </summary>
 namespace IdentityTest.DbContexes
