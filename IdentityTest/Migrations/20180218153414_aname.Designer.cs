@@ -8,8 +8,8 @@ using IdentityTest.DbContexes;
 namespace IdentityTest.Migrations
 {
     [DbContext(typeof(ProjectDbContext))]
-    [Migration("20170422185548_start")]
-    partial class start
+    [Migration("20180218153414_aname")]
+    partial class aname
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

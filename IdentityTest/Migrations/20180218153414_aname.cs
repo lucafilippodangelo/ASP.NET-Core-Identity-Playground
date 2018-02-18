@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace IdentityTest.Migrations
 {
-    public partial class start : Migration
+    public partial class aname : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
